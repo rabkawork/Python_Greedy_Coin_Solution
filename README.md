@@ -1,4 +1,4 @@
-# Mencari solusi minimum untuk penukaran koin dengan algoritma Greedy
+# looking for minimal solutions to exchange coins with greedy algorithm 
 
 ## Language
 Python 3.6.9
@@ -6,13 +6,14 @@ Python 3.6.9
 ## Tools
 Visual Studio Code
 
-## Skenario penukaran uang
+## Scenario
 
-* Koin yang ada => 100, 200, 500, 1000
-* Jumlah Uang -> 1500
-* Penukaran koin bisa dilakukan dengan beberapa cara 
-1. 100 + 100 + 100 ... + 100 (15 koin)
-2. 200 + 200 .... + 200 + 100 (8 Koin)
-3. 500 +  500 + 500 (3 Koin)
-4. 1000 + 500 (2 Koin) -> inilah solusi minimum penukaran koinnya
+* Existing coins                           => 100, 200, 500, 1000
+* Amount of money that will be exchange    => 1500
+
+* Coin exchange can be done in several ways : 
+    1. 100 + 100 + 100 ... + 100 (15 coins)
+    2. 200 + 200 .... + 200 + 100 (8 coins)
+    3. 500 +  500 + 500 (3 coins)
+    4. 1000 + 500 (2 coins) -> that is the minimum solution for exchange those coins
 
